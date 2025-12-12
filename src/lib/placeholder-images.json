@@ -1,0 +1,136 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-phone",
+      "description": "Hero section phone mockup",
+      "imageUrl": "https://images.unsplash.com/photo-1627542557169-5ed71c66ed85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhcHAlMjBtb2NrdXB8ZW58MHx8fHwxNzY1NDg2ODA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "app mockup"
+    },
+    {
+      "id": "quick-commerce",
+      "description": "Quick Commerce app screen",
+      "imageUrl": "https://images.unsplash.com/photo-1726066012685-f5ccd26b6f55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21tZXJjZSUyMGFwcHxlbnwwfHx8fDE3NjU1NTkxMjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "commerce app"
+    },
+    {
+      "id": "ecommerce",
+      "description": "Ecommerce app screen",
+      "imageUrl": "https://images.unsplash.com/photo-1729860649218-a113f34be966?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2hvcHBpbmclMjBhcHB8ZW58MHx8fHwxNzY1NDcyNDk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shopping app"
+    },
+    {
+      "id": "grocery",
+      "description": "Grocery app screen",
+      "imageUrl": "https://images.unsplash.com/photo-1594549208400-128687ad97ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxncm9jZXJ5JTIwYXBwfGVufDB8fHx8MTc2NTU1OTEyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "grocery app"
+    },
+    {
+      "id": "food-delivery",
+      "description": "Food delivery app screen",
+      "imageUrl": "https://images.unsplash.com/photo-1652862730749-31dae8981191?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmb29kJTIwZGVsaXZlcnl8ZW58MHx8fHwxNzY1NDgzOTYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food delivery"
+    },
+    {
+      "id": "cab-service",
+      "description": "Cab service app screen",
+      "imageUrl": "https://images.unsplash.com/photo-1602604953727-254e9efb7348?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0YXhpJTIwYXBwfGVufDB8fHx8MTc2NTU1OTEyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "taxi app"
+    },
+    {
+      "id": "home-service",
+      "description": "Home service app screen",
+      "imageUrl": "https://images.unsplash.com/photo-1726137065539-1aa2cb315e80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzZXJ2aWNlJTIwYXBwfGVufDB8fHx8MTc2NTU1OTEyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "service app"
+    },
+    {
+      "id": "gallery-1",
+      "description": "App gallery image 1",
+      "imageUrl": "https://images.unsplash.com/photo-1564424555153-04228f0aa7ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhcHAlMjB1aXxlbnwwfHx8fDE3NjU1NTkxMjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "app ui"
+    },
+    {
+      "id": "gallery-2",
+      "description": "App gallery image 2",
+      "imageUrl": "https://images.unsplash.com/photo-1551650975-87deedd944c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhcHAlMjBkZXNpZ258ZW58MHx8fHwxNzY1NTQ4MzY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "app design"
+    },
+    {
+      "id": "gallery-3",
+      "description": "App gallery image 3",
+      "imageUrl": "https://images.unsplash.com/photo-1654764449734-bc2d2a2cece2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2JpbGUlMjBpbnRlcmZhY2V8ZW58MHx8fHwxNzY1NDYzNTUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile interface"
+    },
+    {
+      "id": "gallery-4",
+      "description": "App gallery image 4",
+      "imageUrl": "https://images.unsplash.com/photo-1614020661483-d2bb855eee1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhcHAlMjBzY3JlZW58ZW58MHx8fHwxNzY1NDgwNzkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "app screen"
+    },
+    {
+      "id": "gallery-5",
+      "description": "App gallery image 5",
+      "imageUrl": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzY1NDQ2OTA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile app"
+    },
+    {
+      "id": "gallery-6",
+      "description": "App gallery image 6",
+      "imageUrl": "https://images.unsplash.com/photo-1646617747563-4f080bddf282?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx1c2VyJTIwZXhwZXJpZW5jZXxlbnwwfHx8fDE3NjU1NjAxOTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "user experience"
+    },
+    {
+      "id": "avatar-anita",
+      "description": "Avatar for Anita Negi",
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjU1NDk3NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "avatar-priya",
+      "description": "Avatar for Priya Sharma",
+      "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTc2NTU1ODk3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "avatar-sagar",
+      "description": "Avatar for Sagar Howlader",
+      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjU0NTgyNzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "client-logo-1",
+      "description": "Client logo 1",
+      "imageUrl": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjU1MzkwMjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "client-logo-2",
+      "description": "Client logo 2",
+      "imageUrl": "https://images.unsplash.com/photo-1545231027-637d2f6210f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxicmFuZCUyMGxvZ298ZW58MHx8fHwxNzY1NDcyMzgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "brand logo"
+    },
+    {
+      "id": "client-logo-3",
+      "description": "Client logo 3",
+      "imageUrl": "https://images.unsplash.com/photo-1760037028517-e5cc6e3ebd3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZWNoJTIwbG9nb3xlbnwwfHx8fDE3NjU1MTI0MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech logo"
+    },
+    {
+      "id": "client-logo-4",
+      "description": "Client logo 4",
+      "imageUrl": "https://images.unsplash.com/photo-1692372374563-9ab54f303b7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzdGFydHVwJTIwbG9nb3xlbnwwfHx8fDE3NjU1MzY0NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "startup logo"
+    },
+    {
+      "id": "client-logo-5",
+      "description": "Client logo 5",
+      "imageUrl": "https://images.unsplash.com/photo-1662057168154-89300791ad6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMGxvZ298ZW58MHx8fHwxNzY1NTU5MTI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business logo"
+    },
+    {
+      "id": "final-cta-phone",
+      "description": "Final CTA phone mockup",
+      "imageUrl": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwaG9uZSUyMGFwcHxlbnwwfHx8fDE3NjU0NzY2MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "phone app"
+    }
+  ]
+}

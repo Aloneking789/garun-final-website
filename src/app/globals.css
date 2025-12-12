@@ -1,0 +1,302 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 180 65% 93%;
+    --foreground: 224 71.4% 4.1%;
+    --card: 180 50% 98%;
+    --card-foreground: 224 71.4% 4.1%;
+    --popover: 180 50% 98%;
+    --popover-foreground: 224 71.4% 4.1%;
+    --primary: 180 40% 74%;
+    --primary-foreground: 224 71.4% 4.1%;
+    --secondary: 180 20% 88%;
+    --secondary-foreground: 224 71.4% 4.1%;
+    --muted: 180 15% 85%;
+    --muted-foreground: 222.2 47.4% 11.2%;
+    --accent: 110 40% 73%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 180 20% 84%;
+    --input: 180 20% 86%;
+    --ring: 180 40% 64%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.8rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  section {
+    @apply w-full py-12 md:py-24 lg:py-32;
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+  /* Light full circular glowing cursor */
+  html {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"><defs><filter id="glow"><feGaussianBlur stdDeviation="2" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><circle cx="20" cy="20" r="15" fill="rgba(200,255,255,0.3)" filter="url(%23glow)"/><circle cx="20" cy="20" r="12" fill="none" stroke="rgba(100,220,255,0.6)" stroke-width="1.5"/><circle cx="20" cy="20" r="6" fill="rgba(150,255,255,0.5)" filter="url(%23glow)"/><circle cx="20" cy="20" r="3" fill="%23ffffff"/></svg>') 20 20, auto;
+  }
+
+  /* Hover glow for interactive elements */
+  button, a, [role="button"], svg {
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    position: relative;
+  }
+
+  button:hover, a:hover, [role="button"]:hover {
+    transform: scale(1.05);
+  }
+
+  button:active, a:active, [role="button"]:active {
+    transform: scale(0.98);
+  }
+
+  /* Icon glow effect */
+  svg {
+    transition: all 0.3s ease;
+  }
+
+  svg:hover {
+    filter: drop-shadow(0 0 8px rgba(0, 255, 0, 0.6)) drop-shadow(0 0 16px rgba(0, 255, 0, 0.3));
+    transform: scale(1.1) rotate(5deg);
+  }
+
+  /* Glow for figma and react icons specifically */
+  [data-icon="figma"]:hover,
+  [data-icon="react"]:hover {
+    filter: drop-shadow(0 0 12px rgba(0, 255, 0, 0.8)) drop-shadow(0 0 24px rgba(0, 255, 0, 0.5));
+  }
+
+  /* Slide in animation */
+  .animate-slide-up {
+    animation: slide-up 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  @keyframes slide-up {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Fade in animation */
+  .animate-fade-in {
+    animation: fade-in 0.8s ease-in-out;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* Smooth pulse */
+  .animate-pulse-soft {
+    animation: pulse-soft 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  @keyframes pulse-soft {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.95;
+    }
+  }
+
+  /* Glowing line animation */
+  .animate-glow-line {
+    animation: glow-line 2s ease-in-out infinite;
+  }
+
+  @keyframes glow-line {
+    0% {
+      stroke: rgba(0, 255, 0, 0.2);
+      filter: drop-shadow(0 0 2px rgba(0, 255, 0, 0.3));
+    }
+    50% {
+      stroke: rgba(0, 255, 0, 0.8);
+      filter: drop-shadow(0 0 12px rgba(0, 255, 0, 0.8));
+    }
+    100% {
+      stroke: rgba(0, 255, 0, 0.2);
+      filter: drop-shadow(0 0 2px rgba(0, 255, 0, 0.3));
+    }
+  }
+
+  /* Glow pulse for elements */
+  .glow-pulse {
+    animation: glow-pulse 2s ease-in-out infinite;
+  }
+
+  @keyframes glow-pulse {
+    0%, 100% {
+      filter: drop-shadow(0 0 4px rgba(0, 255, 0, 0.3));
+    }
+    50% {
+      filter: drop-shadow(0 0 16px rgba(0, 255, 0, 0.8));
+    }
+  }
+
+  /* Glow on hover for components */
+  .hover-glow:hover {
+    filter: drop-shadow(0 0 12px rgba(0, 255, 0, 0.6)) drop-shadow(0 0 24px rgba(0, 255, 0, 0.3));
+  }
+
+  /* Image hover effects */
+  .hover-lift {
+    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-8px) scale(1.02);
+    filter: drop-shadow(0 15px 35px rgba(100, 220, 255, 0.3)) drop-shadow(0 0 20px rgba(100, 220, 255, 0.2));
+  }
+
+  /* Text hover effects */
+  .hover-glow-text {
+    transition: all 0.3s ease;
+  }
+
+  .hover-glow-text:hover {
+    color: rgba(100, 220, 255, 1);
+    text-shadow: 0 0 8px rgba(100, 220, 255, 0.5), 0 0 16px rgba(100, 220, 255, 0.3);
+    transform: translateY(-2px);
+  }
+
+  /* Paragraph hover effects */
+  .hover-text-expand {
+    transition: all 0.3s ease;
+  }
+
+  .hover-text-expand:hover {
+    transform: scale(1.02);
+    filter: brightness(1.1);
+  }
+
+  /* Button enhanced hover */
+  .hover-button-glow {
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    position: relative;
+  }
+
+  .hover-button-glow:hover {
+    transform: scale(1.08) translateY(-3px);
+    box-shadow: 0 0 20px rgba(100, 220, 255, 0.4), 0 8px 20px rgba(100, 220, 255, 0.2);
+  }
+
+  .hover-button-glow:hover::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: radial-gradient(circle, rgba(100, 220, 255, 0.1) 0%, transparent 70%);
+    animation: pulse-border 1s ease-in-out;
+  }
+
+  @keyframes pulse-border {
+    0% {
+      box-shadow: 0 0 0 0 rgba(100, 220, 255, 0.4);
+    }
+    50% {
+      box-shadow: 0 0 0 8px rgba(100, 220, 255, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(100, 220, 255, 0);
+    }
+  }
+
+  /* Icon enhanced hover */
+  .icon-hover {
+    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  .icon-hover:hover {
+    transform: scale(1.2) rotate(-10deg);
+    filter: drop-shadow(0 0 12px rgba(100, 220, 255, 0.6)) drop-shadow(0 0 24px rgba(100, 220, 255, 0.3));
+  }
+
+  /* Cursor trail particle - smoother */
+  .cursor-trail {
+    position: fixed;
+    pointer-events: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, rgba(100, 220, 255, 0.9) 0%, rgba(100, 220, 255, 0.6) 40%, rgba(100, 220, 255, 0.2) 100%);
+    box-shadow: 0 0 8px rgba(100, 220, 255, 0.7), inset 0 0 8px rgba(100, 220, 255, 0.4);
+    animation: trail-fade-smooth 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    will-change: transform, opacity;
+  }
+
+  @keyframes trail-fade-smooth {
+    0% {
+      opacity: 1;
+      transform: scale(1) translate(0, 0);
+    }
+    50% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.5) translate(var(--tx, 0), var(--ty, 0));
+    }
+  }
+
+  /* Cursor glow effect */
+  .cursor-glow {
+    position: fixed;
+    pointer-events: none;
+    width: 60px;
+    height: 60px;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    box-shadow: 
+      0 0 20px rgba(100, 220, 255, 0.3),
+      0 0 40px rgba(100, 220, 255, 0.2),
+      inset 0 0 20px rgba(100, 220, 255, 0.1);
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+  }
+}
