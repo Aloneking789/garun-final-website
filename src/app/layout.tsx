@@ -4,7 +4,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { CursorEffect } from "@/components/cursor-effect";
 
 export const metadata: Metadata = {
-  title: 'Garun App Platform | Build Your First Mobile App With Us',
+  title: 'Garun Technologies | Build Your First Mobile App With Us',
   description: 'A sleek, modern portfolio website to showcase apps, featuring a prominent hero section for introduction, interactive project cards displaying app details, smooth navigation, and a dedicated contact section.',
 };
 
