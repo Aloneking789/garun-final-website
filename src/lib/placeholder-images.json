@@ -44,39 +44,38 @@
     },
     {
       "id": "gallery-1",
-      "description": "App gallery image 1",
-      "imageUrl": "https://images.unsplash.com/photo-1564424555153-04228f0aa7ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhcHAlMjB1aXxlbnwwfHx8fDE3NjU1NTkxMjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "app ui"
+      "description": "Seeker - Community Learning App",
+      "imageUrl": "/toc.png",
+      "imageHint": "Seeker app",
+      "link": "https://play.google.com/store/apps/details?id=com.theoriginchapter"
     },
     {
       "id": "gallery-2",
-      "description": "App gallery image 2",
-      "imageUrl": "https://images.unsplash.com/photo-1551650975-87deedd944c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhcHAlMjBkZXNpZ258ZW58MHx8fHwxNzY1NTQ4MzY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "app design"
+      "description": "AniDate - Anime Dating App",
+      "imageUrl": "/koi.png",
+      "imageHint": "AniDate app",
+      "link": "https://play.google.com/store/search?q=roadeye&c=apps"
     },
     {
       "id": "gallery-3",
-      "description": "App gallery image 3",
-      "imageUrl": "https://images.unsplash.com/photo-1654764449734-bc2d2a2cece2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2JpbGUlMjBpbnRlcmZhY2V8ZW58MHx8fHwxNzY1NDYzNTUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mobile interface"
+      "description": "GPS Fleet Management System",
+      "imageUrl": "/TRACKER.png",
+      "imageHint": "GPS Fleet Management app",
+      "link": "https://play.google.com/store/search?q=roadeye+tracker&c=apps"
     },
     {
       "id": "gallery-4",
-      "description": "App gallery image 4",
-      "imageUrl": "https://images.unsplash.com/photo-1614020661483-d2bb855eee1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhcHAlMjBzY3JlZW58ZW58MHx8fHwxNzY1NDgwNzkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "app screen"
+      "description": "Emergency SOS & Safety App",
+      "imageUrl": "/roadeye.png",
+      "imageHint": "Emergency SOS app",
+      "link": "https://play.google.com/store/apps/details?id=com.inbuser"
     },
     {
       "id": "gallery-5",
-      "description": "App gallery image 5",
-      "imageUrl": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzY1NDQ2OTA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mobile app"
-    },
-    {
-      "id": "gallery-6",
-      "description": "App gallery image 6",
-      "imageUrl": "https://images.unsplash.com/photo-1646617747563-4f080bddf282?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx1c2VyJTIwZXhwZXJpZW5jZXxlbnwwfHx8fDE3NjU1NjAxOTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "user experience"
+      "description": "Professional Services Platform",
+      "imageUrl": "/INB.png",
+      "imageHint": "Professional Services app",
+      "link": "https://play.google.com/store/apps/details?id=com.koiswipe"
     },
     {
       "id": "avatar-anita",
