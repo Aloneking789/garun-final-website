@@ -46,10 +46,10 @@ export default function PricingSection() {
               <CardDescription className="text-lg">Complete mobile solution for your business</CardDescription>
             </CardHeader>
             <CardContent className="px-8 space-y-4">
-               <div className="text-center">
-                  <span className="text-4xl font-bold">Starts at </span>
-                  <span className="text-4xl font-bold text-primary">₹50000</span>
-                </div>
+              <div className="text-center">
+                <span className="text-4xl font-bold">Starts at </span>
+                <span className="text-4xl font-bold text-primary">₹50000</span>
+              </div>
               <ul className="space-y-3">
                 {mobileFeatures.map((feature) => (
                   <li key={feature} className="flex items-center gap-3">
@@ -79,10 +79,10 @@ export default function PricingSection() {
               <CardDescription className="text-lg">Powerful web applications for your needs</CardDescription>
             </CardHeader>
             <CardContent className="px-8 space-y-4">
-               <div className="text-center">
-                  <span className="text-4xl font-bold">Starts at </span>
-                  <span className="text-4xl font-bold text-primary">₹20000</span>
-                </div>
+              <div className="text-center">
+                <span className="text-4xl font-bold">Starts at </span>
+                <span className="text-4xl font-bold text-primary">₹20000</span>
+              </div>
               <ul className="space-y-3">
                 {webFeatures.map((feature) => (
                   <li key={feature} className="flex items-center gap-3">
