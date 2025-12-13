@@ -18,7 +18,7 @@ export default function HeroSection() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4" style={{ 'animation': 'slide-up 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 0.2s both' }}>
               <Button asChild size="lg" className="hover-button-glow relative">
-                <Link href="#">
+                <Link href="https://wa.me/919369416686?text=Hi%20I%20would%20like%20to%20enquire%20about%20your%20services.%20Let%27s%20schedule%20a%20meet%20to%20discuss%20the%20project">
                   <MessageCircle className="mr-2 h-5 w-5 icon-hover" />
                   Book Free Consultancy
                 </Link>

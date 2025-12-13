@@ -20,7 +20,7 @@ export default function FinalCtaSection() {
             </p>
             <div className="mt-8 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
               <Button asChild size="lg" className="transform transition-transform duration-300 hover:scale-105">
-                <Link href="#">
+                <Link href="https://wa.me/919369416686?text=Hi%20I%20would%20like%20to%20enquire%20about%20your%20services.%20Let%27s%20schedule%20a%20meet%20to%20discuss%20the%20project">
                   <MessageCircle className="mr-2 h-5 w-5" />
                   Book Free Consultancy
                 </Link>
@@ -35,14 +35,14 @@ export default function FinalCtaSection() {
           </div>
           {ctaImage && (
             <div className="relative w-48 shrink-0">
-               <Image
-                  src={ctaImage.imageUrl}
-                  alt={ctaImage.description}
-                  width={200}
-                  height={400}
-                  data-ai-hint={ctaImage.imageHint}
-                  className="rounded-2xl object-contain"
-                />
+              <Image
+                src={ctaImage.imageUrl}
+                alt={ctaImage.description}
+                width={200}
+                height={400}
+                data-ai-hint={ctaImage.imageHint}
+                className="rounded-2xl object-contain"
+              />
             </div>
           )}
         </div>

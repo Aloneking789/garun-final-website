@@ -54,8 +54,8 @@ export default function Header() {
           </nav>
 
           <div className="flex items-center gap-4">
-             <Button asChild className="hidden md:flex">
-              <Link href="#contact">Book a Call</Link>
+            <Button asChild className="hidden md:flex">
+              <Link href="https://wa.me/919369416686?text=Hi%20I%20would%20like%20to%20enquire%20about%20your%20services.%20Let%27s%20schedule%20a%20meet%20to%20discuss%20the%20project">Book a Call</Link>
             </Button>
             <Button
               variant="ghost"
@@ -69,7 +69,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      
+
       {mobileMenuOpen && (
         <div className="md:hidden border-t">
           <nav className="flex flex-col items-center gap-4 p-4">
@@ -84,7 +84,7 @@ export default function Header() {
               </Link>
             ))}
             <Button asChild className="w-full">
-              <Link href="#contact" onClick={() => setMobileMenuOpen(false)}>Book a Call</Link>
+              <Link href="https://wa.me/919369416686?text=Hi%20I%20would%20like%20to%20enquire%20about%20your%20services.%20Let%27s%20schedule%20a%20meet%20to%20discuss%20the%20project" onClick={() => setMobileMenuOpen(false)}>Book a Call</Link>
             </Button>
           </nav>
         </div>

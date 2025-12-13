@@ -30,6 +30,16 @@
     --chart-5: 27 87% 67%;
     --radius: 0.8rem;
   }
+
+  ::selection {
+    background-color: hsl(180 40% 74%);
+    color: hsl(224 71.4% 4.1%);
+  }
+
+  ::-moz-selection {
+    background-color: hsl(180 40% 74%);
+    color: hsl(224 71.4% 4.1%);
+  }
 }
 
 @layer base {

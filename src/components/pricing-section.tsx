@@ -61,7 +61,7 @@ export default function PricingSection() {
             </CardContent>
             <CardFooter className="p-8">
               <Button asChild size="lg" className="w-full">
-                <Link href="#">
+                <Link href="https://wa.me/919369416686?text=Hi%20I%20would%20like%20to%20enquire%20about%20your%20services.%20Let%27s%20schedule%20a%20meet%20to%20discuss%20the%20project">
                   <MessageCircle className="mr-2 h-5 w-5" />
                   Book Free Consultancy
                 </Link>
@@ -94,7 +94,7 @@ export default function PricingSection() {
             </CardContent>
             <CardFooter className="p-8">
               <Button asChild size="lg" className="w-full">
-                <Link href="#">
+                <Link href="https://wa.me/919369416686?text=Hi%20I%20would%20like%20to%20enquire%20about%20your%20services.%20Let%27s%20schedule%20a%20meet%20to%20discuss%20the%20project">
                   <MessageCircle className="mr-2 h-5 w-5" />
                   Book Free Consultancy
                 </Link>
