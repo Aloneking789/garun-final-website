@@ -11,7 +11,7 @@ export default function HeroSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-6 animate-slide-up">
             <h1 className="text-4xl font-extrabold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline transition-all duration-500 hover:-translate-y-2" style={{ 'animation': 'slide-up 0.8s cubic-bezier(0.34, 1.56, 0.64, 1), pulse-soft 2s cubic-bezier(0.4, 0, 0.6, 1) infinite' }}>
-              Launch Your Mobile App in Weeks, Not Months
+              Build Your Mobile App Faster with Us
             </h1>
             <p className="max-w-[600px] text-muted-foreground md:text-xl transition-all duration-500 hover:translate-x-1" style={{ 'animation': 'slide-up 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 0.1s both' }}>
               Get a free consultation for your startup idea. We turn visions into market-ready apps using our versatile, pre-built platforms.
