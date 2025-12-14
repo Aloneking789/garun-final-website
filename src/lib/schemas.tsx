@@ -46,7 +46,7 @@ export const organizationSchema = {
     'https://github.com/garuntech', // Add actual GitHub
     'https://www.facebook.com/garuntech', // Add actual Facebook
   ],
-address: {
+  address: {
     '@type': 'PostalAddress',
     streetAddress: 'GDA Tower',
     addressLocality: 'Gorakhpur',

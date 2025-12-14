@@ -26,7 +26,7 @@ export default function FinalCtaSection() {
                 </Link>
               </Button>
               <Button asChild size="lg" variant="secondary" className="transform transition-transform duration-300 hover:scale-105">
-                <Link href="#">
+                <Link href="https://www.instagram.com/garuntechnologies">
                   <Instagram className="mr-2 h-5 w-5" />
                   Follow Us
                 </Link>

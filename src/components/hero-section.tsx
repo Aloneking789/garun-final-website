@@ -24,7 +24,7 @@ export default function HeroSection() {
                 </Link>
               </Button>
               <Button asChild size="lg" variant="secondary" className="hover-button-glow relative">
-                <Link href="#">
+                <Link href="https://www.instagram.com/garuntechnologies">
                   <Instagram className="mr-2 h-5 w-5 icon-hover" />
                   Follow on Instagram
                 </Link>
