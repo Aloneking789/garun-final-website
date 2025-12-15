@@ -52,6 +52,7 @@ export default function GallerySection() {
                               alt={image.description}
                               width={300}
                               height={600}
+                              quality={80}
                               data-ai-hint={image.imageHint}
                               className="object-cover w-full h-full"
                             />
@@ -71,6 +72,7 @@ export default function GallerySection() {
                             alt={image.description}
                             width={300}
                             height={600}
+                            quality={80}
                             data-ai-hint={image.imageHint}
                             className="object-cover w-full h-full"
                           />

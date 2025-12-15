@@ -45,35 +45,35 @@
     {
       "id": "gallery-1",
       "description": "Seeker - Community Learning App",
-      "imageUrl": "/toc.png",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/Aloneking789/garun-final-website@main/public/toc.png",
       "imageHint": "Seeker app",
       "link": "https://play.google.com/store/apps/details?id=com.theoriginchapter"
     },
     {
       "id": "gallery-2",
       "description": "AniDate - Anime Dating App",
-      "imageUrl": "/koi.png",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/Aloneking789/garun-final-website@main/public/koi.png",
       "imageHint": "AniDate app",
       "link": "https://play.google.com/store/search?q=roadeye&c=apps"
     },
     {
       "id": "gallery-3",
       "description": "GPS Fleet Management System",
-      "imageUrl": "/TRACKER.png",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/Aloneking789/garun-final-website@main/public/TRACKER.png",
       "imageHint": "GPS Fleet Management app",
       "link": "https://play.google.com/store/search?q=roadeye+tracker&c=apps"
     },
     {
       "id": "gallery-4",
       "description": "Emergency SOS & Safety App",
-      "imageUrl": "/roadeye.png",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/Aloneking789/garun-final-website@main/public/roadeye.png",
       "imageHint": "Emergency SOS app",
       "link": "https://play.google.com/store/apps/details?id=com.inbuser"
     },
     {
       "id": "gallery-5",
       "description": "Professional Services Platform",
-      "imageUrl": "/INB.png",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/Aloneking789/garun-final-website@main/public/INB.png",
       "imageHint": "Professional Services app",
       "link": "https://play.google.com/store/apps/details?id=com.koiswipe"
     },

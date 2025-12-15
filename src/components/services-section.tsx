@@ -68,13 +68,13 @@ const services: Service[] = [
 export default function ServicesSection() {
   const getServiceImage = (serviceId: string) => {
     const imageMap: { [key: string]: string } = {
-      'quick-commerce': '/zepto.png',
-      'ecommerce': '/ecooom.png',
-      'food-delivery': '/swiggy.png',
-      'cab-service': '/uber.png',
-      'home-services': '/urban-company.png',
+      'quick-commerce': 'https://cdn.jsdelivr.net/gh/Aloneking789/garun-final-website@main/public/zepto.png',
+      'ecommerce': 'https://cdn.jsdelivr.net/gh/Aloneking789/garun-final-website@main/public/ecooom.png',
+      'food-delivery': 'https://cdn.jsdelivr.net/gh/Aloneking789/garun-final-website@main/public/swiggy.png',
+      'cab-service': 'https://cdn.jsdelivr.net/gh/Aloneking789/garun-final-website@main/public/uber.png',
+      'home-services': 'https://cdn.jsdelivr.net/gh/Aloneking789/garun-final-website@main/public/urban-company.png',
     };
-    return imageMap[serviceId] || '/zepto.png';
+    return imageMap[serviceId] || 'https://cdn.jsdelivr.net/gh/Aloneking789/garun-final-website@main/public/zepto.png';
   };
 
   return (
@@ -109,6 +109,7 @@ export default function ServicesSection() {
                 alt={service.title}
                 width={500}
                 height={600}
+                quality={80}
                 className="w-full h-auto object-cover"
               />
             </div>

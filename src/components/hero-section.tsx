@@ -33,11 +33,12 @@ export default function HeroSection() {
           </div>
           <div className="relative w-full h-full flex justify-center items-center animate-fade-in hover-lift">
             <Image
-              src="/heroo.png"
+              src="https://cdn.jsdelivr.net/gh/Aloneking789/garun-final-website@main/public/heroo.png"
               alt="Mobile app showcase"
-              width={1000}
-              height={800}
+              width={800}
+              height={640}
               priority
+              quality={80}
               className="w-full h-auto object-cover"
             />
           </div>
