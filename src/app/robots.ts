@@ -15,6 +15,8 @@ import { MetadataRoute } from 'next';
  * - Set appropriate crawl delays
  */
 
+export const revalidate = false;
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [

@@ -19,6 +19,8 @@ import { MetadataRoute } from 'next';
  * - Create sitemap_index.xml
  */
 
+export const revalidate = false;
+
 const BASE_URL = 'https://garuntechnologies.com';
 
 // Define your routes with metadata
